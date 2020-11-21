@@ -24,11 +24,11 @@ spring:
       password: a
   application:
     name: microservice-config-eureka
-#   cloud:
-#     stream:
-#       kafka:
-#         binder:
-#           brokers: 39.99.175.175
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 39.99.175.175
 ---
 server:
  port: 7033
@@ -51,8 +51,8 @@ spring:
       password: a
   application:
     name: microcloud-config-eureka
-#   cloud:
-#     stream:
-#       kafka:
-#         binder:
-#           brokers: 39.99.175.175
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 39.99.175.175
